@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Web Server</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        #time { font-weight: bold; color: #0078D7; }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Test Web Server!</h1>
+    <p>This page is hosted on an AWS EC2 instance.</p>
+    <p>Current Server Time: <span id="time">Loading...</span></p>
+    <button onclick="updateTime()">Refresh Time</button>
+    <script src="script.js"></script>
+</body>
+</html>
